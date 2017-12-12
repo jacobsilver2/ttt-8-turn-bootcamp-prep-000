@@ -1,4 +1,5 @@
 def turn
+  
 end
 
 def input_to_index(input)
