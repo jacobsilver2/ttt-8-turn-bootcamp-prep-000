@@ -1,5 +1,6 @@
 def turn
   puts "Please enter 1-9"
+  input = 
 end
 
 def input_to_index(input)
