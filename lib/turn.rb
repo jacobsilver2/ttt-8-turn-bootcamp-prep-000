@@ -1,3 +1,7 @@
+puts "Please enter 1-9:"
+input = gets.strip
+
+
 def input_to_index(input)
   index = input.to_i - 1
   return index
@@ -31,5 +35,4 @@ def move(board, index, token="X")
   board[index] = token
 end
 
-puts "Please enter 1-9:"
-input = gets.strip
+
