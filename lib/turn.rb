@@ -1,7 +1,4 @@
-def turn
-  puts "Please enter 1-9:"
-  name = gets.strip
-end
+
 
 def input_to_index(input)
   index = input.to_i - 1
