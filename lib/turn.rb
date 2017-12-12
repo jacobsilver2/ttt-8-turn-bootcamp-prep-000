@@ -31,4 +31,5 @@ def move(board, index, token="X")
   board[index] = token
 end
 
-
+puts "Please enter 1-9:"
+input = gets.strip
